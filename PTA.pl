@@ -17,3 +17,14 @@ print FH $str;
 close(FH);
 
 print "Napisano do pliku"
+
+sub main
+{
+  notebook = "./ex.txt";
+  open(FH, $notebook) or die("Nie odnaleziono pliku")
+
+  while(my $String = <FH>)
+  {
+    if($String =~ )
+  }
+}
